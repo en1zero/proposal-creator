@@ -43,6 +43,8 @@ class PreparedProposal extends Component
 
   render()
   {
+    let props = this.props;
+
     if (!this.props.submitted || (this.props.validationError !== '')) return null;
 
     return (
